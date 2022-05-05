@@ -1,0 +1,33 @@
+Bazy danych - zależności funkcyjne 
+1)
+id_produktu -> nazwa_produktu, VAT, cena_produktu
+nazwa_produktu -> id_produktu
+id_klienta -> nazwa klienta
+nazwa_klienta -> id_klienta
+suma_netto, VAT -> suma_brutto
+data_zamówienia -> ilość
+data_zamówienia, id_klienta, id_produktu -> suma_brutto 
+
+2)
+id_produktu
+id_klienta
+nazwa_kleinta
+nazwa_produktu
+
+3)
+zależności funkcyjne:
+id_pomieszczenia, id_budynku -> liczba_okien, liczba_drzwi, powierzchnia
+kod_pocztowy -> miasto, ulica
+id_pomieszczenia -> liczba_okien, liczba_drzwi, powierzchnia
+
+
+
+
+klucze kandytujące:
+-id_pomieszczenia,
+-id_budynku,
+-kod_pocztowy
+
+
+
+
